@@ -1,0 +1,9 @@
+.navbox li {
+    list-style: none;
+}
+
+.logo-img {
+    height: 70px;
+    width: 70px;
+    image-rendering: 170p40px;
+}

@@ -1,0 +1,12 @@
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+
+export default function Navbox({Link, title}) {
+    return (
+        <>
+        <div className=""></div>
+            <li><Link to={Link? Link : 'no where'}>{title? title: 'invalid'}</Link></li>
+        </>
+    )
+}
